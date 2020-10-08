@@ -1,8 +1,19 @@
 <template>
   <div>
+    <appnav />
     <Nuxt />
   </div>
 </template>
+
+<script>
+  import appnav from '~/components/appnav.vue';
+
+  export default {
+    components: {
+      appnav
+    },
+  }
+</script>
 
 <style>
 html {
