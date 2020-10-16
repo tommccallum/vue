@@ -18,7 +18,7 @@
 <style>
 html {
   font-family:
-    'Source Sans Pro',
+    'Rubik',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -33,6 +33,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+h1,h2,h3 {
+  font-family: "Rubik";
+  font-weight: normal;
 }
 
 *,
